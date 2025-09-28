@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import Left from './components/left'
-import Right from './components/right'
+import Left from './components/Left'
+import Right from './components/Right'
 
 function App() {
   
