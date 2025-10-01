@@ -19,24 +19,18 @@ const Video = () => {
 
         <div className="overflow-hidden rounded-3xl border border-emerald-200 bg-emerald-900/5 shadow-inner">
           <div className="relative aspect-video w-full bg-gradient-to-br from-[#13321a] via-[#1e4425] to-[#0b1c10]">
-            <div className="absolute inset-0 flex flex-col items-center justify-center gap-4 p-6 text-center text-emerald-100">
-              <span className="inline-flex h-14 w-14 items-center justify-center rounded-full border border-emerald-200 bg-emerald-800/40">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  className="h-6 w-6"
-                >
-                  <path d="M8 5v14l11-7z" />
-                </svg>
-              </span>
-              <div className="space-y-2">
-                <h3 className="text-lg font-semibold">Demo in Progress</h3>
-                <p className="text-sm text-emerald-100/80">
-                  Embed the prototype walkthrough once the video is recorded. Until then, this section highlights the narrative and key flows we will cover.
-                </p>
+            <div className="absolute inset-0 flex flex-col items-center justify-center gap-4  text-center text-emerald-100">
+
+              <div className="space-y-2 w-full h-full">
+                <iframe
+                  className='h-full w-full'
+                  src="https://www.youtube.com/embed/5sxVVb9bt_U"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+
               </div>
             </div>
           </div>
